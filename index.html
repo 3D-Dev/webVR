@@ -21,5 +21,30 @@
         <div class="title">バーチャル展示会</div>
       </div>
     </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-auth.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyCUILrO1004qjEshS1tS2qE9sFXMCOZiXY",
+        authDomain: "virtualtour-59981.firebaseapp.com",
+        databaseURL: "https://virtualtour-59981.firebaseio.com",
+        projectId: "virtualtour-59981",
+        storageBucket: "virtualtour-59981.appspot.com",
+        messagingSenderId: "767337598042",
+        appId: "1:767337598042:web:c83d38bc0110f4ddeedc63",
+        measurementId: "G-MG5GXYX5J9"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
   </body>
 </html>
